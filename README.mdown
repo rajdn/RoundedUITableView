@@ -1,0 +1,6 @@
+
+Very simple Rounded UITableView implemention similar to the built-in
+Weather and Stock apps flipside views.
+
+This implementation requires iPhone OS 3.0 and higher.  It makes use 
+of CALayer.mask and CALayer.cornerRadius.
