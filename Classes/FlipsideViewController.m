@@ -23,6 +23,7 @@
     cities = [[NSMutableArray alloc] initWithObjects:@"Leesburg, VA", @"Reston, VA", 
               @"Chicago, IL", @"New York, NY", @"Cupertino, CA", @"Orlando, FL", 
               @"Tampa, FL", nil];
+    [self.tableView reloadData];
 }
 
 

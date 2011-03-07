@@ -85,7 +85,7 @@
 
 - (void)adjustMask {
     // Re-calculate the size of the mask to account for adding/removing rows.
-    CGRect frame;
+    CGRect frame = mask.frame;
     if(self.contentSize.height > self.frame.size.height) {
     	frame.size = self.contentSize;
     } else {
